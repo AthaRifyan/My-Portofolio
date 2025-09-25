@@ -21,4 +21,4 @@ Beberapa jenis proyek yang bisa ditemukan di sini:
 
 🌐 Aplikasi Web – Contoh: Kalkulator Sederhana.
 
-📚 Algoritma – implementasi Search , Divide & Conquer, BFS, dll.
+📚 Algoritma – Implementasi Search , Divide & Conquer, BFS, dll.
