@@ -1,0 +1,105 @@
+/* responsive.css */
+
+/* ========================================
+    Tablet (max-width: 1024px)
+   ======================================== */
+@media (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 100px 5% 50px;
+    }
+
+    .home-content {
+        margin: 0;
+    }
+
+    .home-img {
+        margin: 20px 0 0;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .about-img img {
+        margin: 20px auto;
+    }
+
+    .portfolio-content {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom di tablet */
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        padding: 50px 5%;
+    }
+    }
+
+/* ========================================
+    Mobile (max-width: 768px)
+   ======================================== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar a {
+        margin: 8px;
+        font-size: 18px;
+    }
+
+    .home h1 {
+        font-size: 38px;
+    }
+
+    .home-content h3 {
+        font-size: 22px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .portfolio-content {
+        grid-template-columns: 1fr; /* 1 kolom di HP */
+    }
+
+    .contact-text h2 {
+        font-size: 50px;
+    }
+    }
+
+/* ========================================
+    Very Small Devices (max-width: 480px)
+   ======================================== */
+@media (max-width: 480px) {
+    .home h1 {
+        font-size: 28px;
+    }
+
+    .home-content h3 {
+        font-size: 18px;
+    }
+
+    .btn-box {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .skills-extra {
+        font-size: 18px;
+    }
+    }
